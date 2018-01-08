@@ -1,0 +1,174 @@
+html {box-sizing: border-box;}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Global Styles */
+body {
+    color:black;
+    font-family:"Avenir",sans-serif;
+    font-weight:normal;
+    font-size:11pt;
+    line-height:1.4em;
+
+}
+
+/* Typography */
+
+/* Header + Navigation */
+header {
+    margin-top:100px;
+    padding-bottom:40px;
+    margin-bottom: 120px;
+    width: 100%;
+    font-size:25px;
+
+}
+
+header h1 {
+    font-family: Bradley Hand ITC;
+    font-size:58pt;
+    text-transform:uppercase;
+    text-align:left;
+    float: left;
+    margin-left:80px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+header nav {
+    float: right;
+    line-height: 2.4em;
+    position:relative;
+}
+
+header nav ul {
+    list-style: none;
+    margin-right:5em;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16pt;
+    margin-left:3em;
+
+}
+
+
+a {
+    color: rgb(91, 91, 91);
+}
+
+a:hover {
+    color: rgb(183, 183, 183);
+
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+
+/* Page Layout */
+.container{
+    margin:auto;
+    position:relative;
+}
+
+ul.thumbnails{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+ul.thumbnails li.thumb{
+    margin:30px;
+    width:400px;
+
+}
+
+li.thumb img {
+    max-width:100%;
+
+}
+
+li.thumb a img {
+    transition:all .3s ease;
+    -webkit-transition" all .3s ease;
+}
+
+li.thumb a:hover img {
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+
+} 
+
+/* Content */
+.content {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    float:center;
+}
+
+.content h2{
+    margin: 30px 0px 30px;
+    font-size:20px;
+    color: rgb(183, 183, 183);
+
+}
+
+
+
+
+.content p{
+    margin:80px;
+    font-size:16px;
+    font-family: Avenir;
+    color:grey;
+}
+
+.content p a{
+    text-decoration: none;
+    font-family: Avenir;
+    margin:auto;
+    font-size:16px;
+}
+
+.content img{
+    width:100%;
+    margin:20px;
+}
+
+.title{
+     font-size:18px; 
+     text-align:center;
+     margin-top:.5em;
+     color: rgb(91, 91, 91);
+}
+
+.caption {
+    font-size:18px;
+    color: rgb(11, 119, 226);
+    margin-top:5px
+}
+/* Footer */
+
+.footer {
+    float:center;
+    margin:0;
+   }
+
+.footer img {
+    
+}
